@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import LeaveHeader from '../faculty/LeaveHeader';
 import { getAllUsers, createUser, updateUser, deleteUser, resetLeaveBalances  } from '../../services/adminAPI';
 import { Input } from '../ui/input'; // Replace with your own Input/Label/Button components
-import { Label } from '../ui/Label';
-import { Button } from '../ui/Button';
+import { Label } from '../ui/label';
+import { Button } from '../ui/button';
 import { registerUser } from '@/services/authService';
 
 const roles = ['admin', 'dean', 'hod', 'faculty', 'clerk', 'student', 'deputy director', 'director'];
