@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://leave-management-backend-2004.onrender.com/api/:path*"
+    }
+  ]
+}
